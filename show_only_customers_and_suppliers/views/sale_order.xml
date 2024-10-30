@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_sale_filter">
+            <field name="name">view_sale_filter</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <field name="partner_id" position="after">
+                    <field name="show_only_customers" invisible="1"/>
+                    <field name="tag_to_show_id" options="{'color_field': 'color', 'no_create_edit': True}" invisible="1"/>
+                </field>
+                <field name="partner_id" position="attributes">
+                    <attribute name="domain">[('category_id', 'in', tag_to_show_id)]</attribute>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

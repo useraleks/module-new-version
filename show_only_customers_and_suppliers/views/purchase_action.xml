@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+
+    <record id="account.res_partner_action_supplier" model="ir.actions.act_window">
+        <field name="name">Suppliers</field>
+        <field name="domain">[('category_id', '=', 'Supplier')]</field>
+        <field name="context">{}</field>
+    </record>
+
+    </data>
+</odoo>

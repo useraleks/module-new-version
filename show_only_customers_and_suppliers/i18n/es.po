@@ -1,0 +1,80 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* show_only_customers_and_suppliers
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-25 20:45+0000\n"
+"PO-Revision-Date: 2024-03-25 20:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model,name:show_only_customers_and_suppliers.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model,name:show_only_customers_and_suppliers.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: show_only_customers_and_suppliers
+#: model_terms:ir.ui.view,arch_db:show_only_customers_and_suppliers.res_config_settings_view_form
+msgid "Domains"
+msgstr "Dominios"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_res_config_settings__show_only_customers
+msgid "Filter and show only customers in sales"
+msgstr "Filtrar y mostrar solo clientes en ventas"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_res_config_settings__show_only_suppliers
+msgid "Filter and show only suppliers in purchase order"
+msgstr "Filtrar y mostrar solo proveedores en orden de compra."
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model,name:show_only_customers_and_suppliers.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model,name:show_only_customers_and_suppliers.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: show_only_customers_and_suppliers
+#: model_terms:ir.ui.view,arch_db:show_only_customers_and_suppliers.res_config_settings_view_form
+msgid ""
+"This option filters or shows only contacts that contain the Supplier or any "
+"other label when creating a sale."
+msgstr ""
+"Esta opción filtra o muestra solo los contactos que contienen al Proveedor o cualquier "
+"otra etiqueta al crear una venta."
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_purchase_order__tag_to_show_id
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_res_company__tag_to_show_id
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_res_company__to_show_id_po
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_res_config_settings__tag_to_show_id
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_res_config_settings__tag_to_show_id_po
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_sale_order__tag_to_show_id
+msgid "filter by"
+msgstr "filtrar por"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_sale_order__show_only_customers
+msgid "show only customers"
+msgstr "Mostrar solo clientes"
+
+#. module: show_only_customers_and_suppliers
+#: model:ir.model.fields,field_description:show_only_customers_and_suppliers.field_purchase_order__show_only_suppliers
+msgid "show only suppliers"
+msgstr "Mostrar solo proveedores"
